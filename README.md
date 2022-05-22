@@ -28,4 +28,5 @@ Usage: make <target>
   run.tests                  Runs Unit tests
   rubocop                    Runs code linter with auto-correction
   ci                         Runs code linter and unit tests in CI
+  server                     Runs the web server
 ```
