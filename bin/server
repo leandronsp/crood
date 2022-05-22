@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'adelnor'
+require './lib/crood'
+
+Adelnor::Server.run Crood.application, 3000

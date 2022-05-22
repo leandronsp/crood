@@ -22,3 +22,10 @@ ci: ## Runs code linter and unit tests in CI
 	bundle install
 	rubocop
 	ruby -Itest test/all.rb
+
+server: ## Runs the web server
+	@docker-compose run \
+		--rm \
+		--service-ports \
+		ruby \
+		bash -c "bin/server"

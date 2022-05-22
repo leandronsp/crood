@@ -4,3 +4,4 @@ require 'test/unit'
 
 Dir['./test/**/*.rb'].sort.each { |file| require file }
 Dir['./lib/**/*.rb'].sort.each { |file| require file }
+Dir['./app/**/*.rb'].sort.each { |file| require file }
